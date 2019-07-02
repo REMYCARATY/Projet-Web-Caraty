@@ -1,0 +1,105 @@
+body { 
+  margin: 0%;
+  overflow: hidden;
+}
+
+.n{
+ width: 100vw;
+ position: fixed;
+}
+
+.page{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/photodev.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.parcour{
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+  top: 10vh;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+.bare {
+  position: absolute;
+  width: 80vw;
+  height: 25px;
+  margin-top: calc(20vw - 12.5px);
+  margin-left: calc(50% - 40vw);
+  background-color: #343a40; 
+  z-index: 0;
+}
+
+.p1{
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  margin-left: calc(10vw - 100px);
+  margin-top: calc(17.5vw - 12px);
+  color: white;
+  z-index: 0;
+}
+
+.c1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: calc(10vw - 25px);
+  margin-top: calc(20vw - 25px);
+  background-color: #343a40;
+  z-index: 10;
+}
+
+.p2{
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  margin-left: calc(50vw - 150px);
+  margin-top: calc(17.5vw - 12px);
+  color: white;
+  z-index: 0;
+}
+
+.c2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: calc(50vw - 25px);
+  margin-top: calc(20vw - 25px);
+  background-color: #343a40;
+  z-index: 10;
+}
+
+.p3{
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  margin-left: calc(90vw - 150px);
+  margin-top: calc(17.5vw - 12px);
+  color: white;
+  z-index: 0;
+}
+
+.c3{
+    position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: calc(90vw - 25px);
+  margin-top: calc(20vw - 25px);
+  background-color: #343a40;
+  z-index: 10;
+}
