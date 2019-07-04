@@ -1,0 +1,3 @@
+Ajouter: INSERT INTO competence_utilisateur (id_utilisateur, id_competence, niveau) VALUES ('valeur 1', 'valeur 2', 'valeur 3');
+Supprimer: DELETE FROM competence_utilisateur WHERE id_competence= ;
+Mettre à jour: UPDATE competence_utilisateur SET niveau=nouvelle valeur WHERE id_competence= ;
